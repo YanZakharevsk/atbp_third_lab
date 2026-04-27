@@ -1,15 +1,14 @@
 {
   "name": "lab3-ui-tests",
   "version": "1.0.0",
-  "description": "UI tests for water calculator",
   "scripts": {
     "test:ui": "npx playwright test",
     "test:ui:headed": "npx playwright test --headed",
-    "test:ui:debug": "npx playwright test --debug",
-    "test:ui:report": "npx playwright show-report"
+    "test:ui:report": "npx playwright show-report",
+    "wait-on": "npx wait-on"
   },
   "devDependencies": {
     "@playwright/test": "^1.40.0",
-    "@types/node": "^20.10.0"
+    "wait-on": "^7.0.0"
   }
 }
