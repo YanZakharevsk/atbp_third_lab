@@ -1,12 +1,9 @@
 package com.atbp.lab3.controller;
 
-import com.atbp.lab3.WaterRequest;
+import com.atbp.lab3.model.WaterRequest;
 import com.atbp.lab3.services.WaterService;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/water")

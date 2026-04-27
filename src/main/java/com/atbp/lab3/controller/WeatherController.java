@@ -1,6 +1,6 @@
 package com.atbp.lab3.controller;
 
-import com.atbp.lab3.WeatherResponse;
+import com.atbp.lab3.model.WeatherResponse;
 import com.atbp.lab3.services.WeatherService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

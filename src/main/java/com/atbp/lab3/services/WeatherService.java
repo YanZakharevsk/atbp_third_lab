@@ -1,11 +1,8 @@
 package com.atbp.lab3.services;
 
-import com.atbp.lab3.WeatherResponse;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
+import com.atbp.lab3.model.WeatherResponse;
 import org.springframework.stereotype.Service;
 
-import java.net.http.HttpResponse;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
