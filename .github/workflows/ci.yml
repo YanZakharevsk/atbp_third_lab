@@ -93,7 +93,7 @@ jobs:
       - name: Start Spring Boot server
         run: |
           mvn spring-boot:run &
-          npx wait-on http://localhost:8080/api/status --timeout 60000
+          npx wait-on http://localhost:8081/api/status --timeout 60000
 
       - name: Run UI tests with Allure
         run: npm run test:ui -- --project=${{ matrix.browser }}
