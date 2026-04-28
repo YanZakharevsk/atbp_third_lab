@@ -98,7 +98,7 @@ jobs:
       - name: Start Spring Boot server
         run: |
           mvn spring-boot:run &
-          npx wait-on http://localhost:8080/api/status
+          npx wait-on http://localhost:8081/api/status
 
       - name: Run UI tests
         run: npm run test:ui -- --project=${{ matrix.browser }}
