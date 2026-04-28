@@ -1,0 +1,133 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","","","3","","com.atbp.lab3.service.WaterServiceTest","","com.atbp.lab3.service.WaterServiceTest","","testCalculateWaterNorm_Success_NormalTemperature",""
+"passed","","","48","","RunCucumberTest","","com.atbp.lab3.RunCucumberTest","","Example #1.4",""
+"passed","","","36","","RunCucumberTest","","com.atbp.lab3.RunCucumberTest","","Проверка увеличения нормы при жаркой погоде",""
+"passed","","","0","","com.atbp.lab3.service.WeatherServiceTest","","com.atbp.lab3.service.WeatherServiceTest","","testGetWeather_KnownCities{String, double}[5]",""
+"passed","","","0","","com.atbp.lab3.service.WeatherServiceTest","","com.atbp.lab3.service.WeatherServiceTest","","testGetWeather_KnownCities{String, double}[2]",""
+"passed","Tue Apr 28 18:20:32 UTC 2026","Tue Apr 28 18:20:32 UTC 2026","4","","Модульные тесты WaterService","","com.atbp.lab3.service.WaterServiceTest","testBoundaryTemperature_30_1","Граничное значение: температура 30.1°C - увеличение",""
+"passed","","","2","","com.atbp.lab3.service.WaterServiceTest","","com.atbp.lab3.service.WaterServiceTest","","testCalculateWaterNorm_NegativeActivity",""
+"passed","","","52","","RunCucumberTest","","com.atbp.lab3.RunCucumberTest","","Интеграция с сервисом погоды",""
+"passed","Tue Apr 28 18:20:32 UTC 2026","Tue Apr 28 18:20:32 UTC 2026","3","","Модульные тесты WaterService","","com.atbp.lab3.service.WaterServiceTest","testWeatherServiceNotCalledOnValidationError","Проверка: при ошибке валидации WeatherService не вызывается",""
+"passed","Tue Apr 28 12:48:28 UTC 2026","Tue Apr 28 12:48:28 UTC 2026","131","","","","","","Интеграция с сервисом погоды",""
+"passed","","","0","","com.atbp.lab3.service.WaterServiceTest","","com.atbp.lab3.service.WaterServiceTest","","testCalculateWaterNorm_WeightLessThanMin",""
+"passed","Tue Apr 28 18:20:32 UTC 2026","Tue Apr 28 18:20:32 UTC 2026","6","","Модульные тесты WaterService","","com.atbp.lab3.service.WaterServiceTest","testCalculateWaterNorm_Success_HotWeather","Позитивный: при температуре > 30°C норма увеличивается на 20%",""
+"passed","Tue Apr 28 18:20:40 UTC 2026","Tue Apr 28 18:20:40 UTC 2026","54","","Расчет дневной нормы воды","","Расчет нормы воды для разных городов и веса","","Расчет нормы воды для разных городов и веса","  Как пользователь системы
+  Я хочу получать рекомендации по потреблению воды
+  Чтобы поддерживать водный баланс с учетом погоды"
+"passed","Tue Apr 28 18:20:40 UTC 2026","Tue Apr 28 18:20:41 UTC 2026","156","","Расчет дневной нормы воды","","Проверка валидации веса","","Проверка валидации веса","  Как пользователь системы
+  Я хочу получать рекомендации по потреблению воды
+  Чтобы поддерживать водный баланс с учетом погоды"
+"passed","","","3","","com.atbp.lab3.service.WaterServiceTest","","com.atbp.lab3.service.WaterServiceTest","","testBoundaryWeight_Min",""
+"passed","Tue Apr 28 18:20:32 UTC 2026","Tue Apr 28 18:20:32 UTC 2026","4","","Модульные тесты WaterService","","com.atbp.lab3.service.WaterServiceTest","testCalculateWaterNorm_DifferentActivityTimes","Позитивный: разное время активности",""
+"passed","Tue Apr 28 18:20:32 UTC 2026","Tue Apr 28 18:20:32 UTC 2026","14","","Тесты WeatherService","","com.atbp.lab3.service.WeatherServiceTest","testGetWeather_KnownCities","Проверка известных городов [1] city=minsk, expectedTemp=-5.0",""
+"broken","Tue Apr 28 12:48:27 UTC 2026","Tue Apr 28 12:48:27 UTC 2026","102","","","","","","Example #1.3",""
+"passed","","","2","","com.atbp.lab3.service.WaterServiceTest","","com.atbp.lab3.service.WaterServiceTest","","testCalculateWaterNorm_DifferentActivityTimes",""
+"passed","Tue Apr 28 18:20:33 UTC 2026","Tue Apr 28 18:20:33 UTC 2026","3","","Тесты WeatherService","","com.atbp.lab3.service.WeatherServiceTest","testGetWeather_KnownCities","Проверка известных городов [3] city=vitebsk, expectedTemp=15.0",""
+"passed","","","2","","com.atbp.lab3.service.WaterServiceTest","","com.atbp.lab3.service.WaterServiceTest","","testCalculateWaterNorm_Success_HotWeather",""
+"passed","Tue Apr 28 12:48:27 UTC 2026","Tue Apr 28 12:48:27 UTC 2026","79","","","","","","Example #1.2",""
+"broken","Tue Apr 28 12:48:27 UTC 2026","Tue Apr 28 12:48:27 UTC 2026","77","","","","","","Example #1.4",""
+"passed","Tue Apr 28 18:20:41 UTC 2026","Tue Apr 28 18:20:41 UTC 2026","75","","Расчет дневной нормы воды","","Проверка валидации веса","","Проверка валидации веса","  Как пользователь системы
+  Я хочу получать рекомендации по потреблению воды
+  Чтобы поддерживать водный баланс с учетом погоды"
+"passed","Tue Apr 28 18:20:33 UTC 2026","Tue Apr 28 18:20:33 UTC 2026","3","","Тесты WeatherService","","com.atbp.lab3.service.WeatherServiceTest","testGetWeather_KnownCities","Проверка известных городов [5] city=brest, expectedTemp=40.0",""
+"passed","Tue Apr 28 12:48:27 UTC 2026","Tue Apr 28 12:48:27 UTC 2026","70","","","","","","Example #1.4",""
+"broken","Tue Apr 28 12:48:26 UTC 2026","Tue Apr 28 12:48:26 UTC 2026","85","","","","","","Example #1.2",""
+"passed","Tue Apr 28 18:20:33 UTC 2026","Tue Apr 28 18:20:33 UTC 2026","6","","Тесты WeatherService","","com.atbp.lab3.service.WeatherServiceTest","testGetWeather_KnownCities","Проверка известных городов [2] city=gomel, expectedTemp=-8.0",""
+"passed","Tue Apr 28 12:48:27 UTC 2026","Tue Apr 28 12:48:28 UTC 2026","82","","","","","","Example #1.3",""
+"passed","Tue Apr 28 12:48:28 UTC 2026","Tue Apr 28 12:48:28 UTC 2026","67","","","","","","Example #1.3",""
+"passed","Tue Apr 28 18:20:32 UTC 2026","Tue Apr 28 18:20:32 UTC 2026","19","","Модульные тесты WaterService","","com.atbp.lab3.service.WaterServiceTest","testParameterizedWaterNorm","Параметризованный тест: разные комбинации веса, активности и города [4] weight=70, activity=60, city=vitebsk, temp=15, expectedNorm=2600, expectedMessage=Normal calculation",""
+"passed","Tue Apr 28 18:20:32 UTC 2026","Tue Apr 28 18:20:32 UTC 2026","3","","Тесты WeatherService","","com.atbp.lab3.service.WeatherServiceTest","testGetWeather_CaseInsensitive","Регистронезависимость названия города",""
+"passed","Tue Apr 28 18:20:41 UTC 2026","Tue Apr 28 18:20:41 UTC 2026","85","","Расчет дневной нормы воды","","Проверка валидации времени активности","","Проверка валидации времени активности","  Как пользователь системы
+  Я хочу получать рекомендации по потреблению воды
+  Чтобы поддерживать водный баланс с учетом погоды"
+"passed","","","4","","com.atbp.lab3.service.WaterServiceTest","","com.atbp.lab3.service.WaterServiceTest","","testWeatherServiceCalledExactlyOnce",""
+"passed","Tue Apr 28 12:48:27 UTC 2026","Tue Apr 28 12:48:27 UTC 2026","76","","","","","","Example #1.1",""
+"passed","","","2","","com.atbp.lab3.service.WaterServiceTest","","com.atbp.lab3.service.WaterServiceTest","","testWeatherServiceNotCalledOnValidationError",""
+"passed","","","3","","com.atbp.lab3.service.WaterServiceTest","","com.atbp.lab3.service.WaterServiceTest","","testParameterizedWaterNorm{double, int, String, double, double, String}[6]",""
+"passed","","","339","","com.atbp.lab3.controller.WaterControllerTest","","com.atbp.lab3.controller.WaterControllerTest","","testCalculateWaterNorm_Success",""
+"passed","Tue Apr 28 18:20:32 UTC 2026","Tue Apr 28 18:20:32 UTC 2026","7","","Модульные тесты WaterService","","com.atbp.lab3.service.WaterServiceTest","testParameterizedWaterNorm","Параметризованный тест: разные комбинации веса, активности и города [7] weight=100, activity=120, city=minsk, temp=-5, expectedNorm=4000, expectedMessage=Normal calculation",""
+"passed","","","41","","RunCucumberTest","","com.atbp.lab3.RunCucumberTest","","Example #1.3",""
+"passed","","","3","","com.atbp.lab3.service.WaterServiceTest","","com.atbp.lab3.service.WaterServiceTest","","testBoundaryTemperature_30_1",""
+"passed","Tue Apr 28 12:48:28 UTC 2026","Tue Apr 28 12:48:28 UTC 2026","139","","","","","","Example #1.2",""
+"passed","","","0","","com.atbp.lab3.service.WeatherServiceTest","","com.atbp.lab3.service.WeatherServiceTest","","testGetWeather_CaseInsensitive",""
+"passed","Tue Apr 28 18:20:33 UTC 2026","Tue Apr 28 18:20:33 UTC 2026","2","","Тесты WeatherService","","com.atbp.lab3.service.WeatherServiceTest","testGetWeather_KnownCities","Проверка известных городов [4] city=grodno, expectedTemp=35.0",""
+"broken","Tue Apr 28 12:48:26 UTC 2026","Tue Apr 28 12:48:26 UTC 2026","87","","","","","","Example #1.5",""
+"passed","Tue Apr 28 18:20:32 UTC 2026","Tue Apr 28 18:20:32 UTC 2026","5","","Модульные тесты WaterService","","com.atbp.lab3.service.WaterServiceTest","testParameterizedWaterNorm","Параметризованный тест: разные комбинации веса, активности и города [8] weight=100, activity=60, city=grodno, temp=35, expectedNorm=4200, expectedMessage=Increased due to hot weather",""
+"passed","","","49","","com.atbp.lab3.service.WaterServiceTest","","com.atbp.lab3.service.WaterServiceTest","","testParameterizedWaterNorm{double, int, String, double, double, String}[1]",""
+"passed","Tue Apr 28 18:20:32 UTC 2026","Tue Apr 28 18:20:32 UTC 2026","4","","Модульные тесты WaterService","","com.atbp.lab3.service.WaterServiceTest","testBoundaryWeight_Max","Граничное значение: максимальный вес 250 кг",""
+"passed","Tue Apr 28 12:48:27 UTC 2026","Tue Apr 28 12:48:27 UTC 2026","61","","","","","","Example #1.3",""
+"broken","Tue Apr 28 12:48:26 UTC 2026","Tue Apr 28 12:48:27 UTC 2026","78","","","","","","Example #1.2",""
+"passed","","","0","","com.atbp.lab3.service.WeatherServiceTest","","com.atbp.lab3.service.WeatherServiceTest","","testWeatherCondition_Sunny",""
+"passed","Tue Apr 28 18:20:41 UTC 2026","Tue Apr 28 18:20:41 UTC 2026","86","","Расчет дневной нормы воды","","Проверка валидации времени активности","","Проверка валидации времени активности","  Как пользователь системы
+  Я хочу получать рекомендации по потреблению воды
+  Чтобы поддерживать водный баланс с учетом погоды"
+"passed","Tue Apr 28 18:20:39 UTC 2026","Tue Apr 28 18:20:40 UTC 2026","650","","Расчет дневной нормы воды","","Расчет нормы воды для разных городов и веса","","Расчет нормы воды для разных городов и веса","  Как пользователь системы
+  Я хочу получать рекомендации по потреблению воды
+  Чтобы поддерживать водный баланс с учетом погоды"
+"passed","Tue Apr 28 18:20:32 UTC 2026","Tue Apr 28 18:20:32 UTC 2026","3","","Модульные тесты WaterService","","com.atbp.lab3.service.WaterServiceTest","testCalculateWaterNorm_WeightZero","Негативный: вес 0 кг",""
+"passed","Tue Apr 28 18:20:32 UTC 2026","Tue Apr 28 18:20:32 UTC 2026","23","","Модульные тесты WaterService","","com.atbp.lab3.service.WaterServiceTest","testCalculateWaterNorm_WeightGreaterThanMax","Негативный: вес больше 250 кг",""
+"passed","","","4","","com.atbp.lab3.service.WaterServiceTest","","com.atbp.lab3.service.WaterServiceTest","","testParameterizedWaterNorm{double, int, String, double, double, String}[2]",""
+"passed","","","1","","com.atbp.lab3.service.WaterServiceTest","","com.atbp.lab3.service.WaterServiceTest","","testRoundingToTwoDecimals",""
+"passed","Tue Apr 28 18:20:41 UTC 2026","Tue Apr 28 18:20:41 UTC 2026","87","","Расчет дневной нормы воды","","Интеграция с сервисом погоды","","Интеграция с сервисом погоды","  Как пользователь системы
+  Я хочу получать рекомендации по потреблению воды
+  Чтобы поддерживать водный баланс с учетом погоды"
+"broken","Tue Apr 28 12:48:26 UTC 2026","Tue Apr 28 12:48:26 UTC 2026","103","","","","","","Example #1.3",""
+"passed","Tue Apr 28 18:20:32 UTC 2026","Tue Apr 28 18:20:32 UTC 2026","5","","Модульные тесты WaterService","","com.atbp.lab3.service.WaterServiceTest","testWeatherServiceCalledExactlyOnce","Проверка: WeatherService вызывается ровно один раз",""
+"broken","Tue Apr 28 12:48:26 UTC 2026","Tue Apr 28 12:48:26 UTC 2026","89","","","","","","Example #1.4",""
+"passed","Tue Apr 28 18:20:32 UTC 2026","Tue Apr 28 18:20:32 UTC 2026","4","","Тесты WeatherService","","com.atbp.lab3.service.WeatherServiceTest","testGetWeather_UnknownCity","Неизвестный город возвращает случайную температуру",""
+"broken","Tue Apr 28 12:48:26 UTC 2026","Tue Apr 28 12:48:26 UTC 2026","73","","","","","","Example #1.1",""
+"passed","Tue Apr 28 18:20:32 UTC 2026","Tue Apr 28 18:20:32 UTC 2026","6","","Модульные тесты WaterService","","com.atbp.lab3.service.WaterServiceTest","testParameterizedWaterNorm","Параметризованный тест: разные комбинации веса, активности и города [3] weight=70, activity=60, city=brest, temp=40, expectedNorm=3120, expectedMessage=Increased due to hot weather",""
+"passed","","","7","","com.atbp.lab3.service.WaterServiceTest","","com.atbp.lab3.service.WaterServiceTest","","testCalculateWaterNorm_WeightGreaterThanMax",""
+"passed","Tue Apr 28 18:20:32 UTC 2026","Tue Apr 28 18:20:32 UTC 2026","5","","Тесты WeatherService","","com.atbp.lab3.service.WeatherServiceTest","testWeatherCondition_Sunny","Проверка условия для города с температурой > 25",""
+"passed","","","2","","com.atbp.lab3.service.WaterServiceTest","","com.atbp.lab3.service.WaterServiceTest","","testParameterizedWaterNorm{double, int, String, double, double, String}[3]",""
+"passed","","","2","","com.atbp.lab3.service.WaterServiceTest","","com.atbp.lab3.service.WaterServiceTest","","testCalculateWaterNorm_WeightZero",""
+"broken","Tue Apr 28 12:48:26 UTC 2026","Tue Apr 28 12:48:26 UTC 2026","99","","","","","","Example #1.6",""
+"broken","Tue Apr 28 12:48:16 UTC 2026","Tue Apr 28 12:48:26 UTC 2026","9978","","","","","","Example #1.1",""
+"passed","Tue Apr 28 18:20:32 UTC 2026","Tue Apr 28 18:20:32 UTC 2026","4","","Модульные тесты WaterService","","com.atbp.lab3.service.WaterServiceTest","testBoundaryWeight_Min","Граничное значение: минимальный вес 5 кг",""
+"passed","Tue Apr 28 18:20:40 UTC 2026","Tue Apr 28 18:20:40 UTC 2026","65","","Расчет дневной нормы воды","","Расчет нормы воды для разных городов и веса","","Расчет нормы воды для разных городов и веса","  Как пользователь системы
+  Я хочу получать рекомендации по потреблению воды
+  Чтобы поддерживать водный баланс с учетом погоды"
+"passed","","","39","","RunCucumberTest","","com.atbp.lab3.RunCucumberTest","","Example #1.2",""
+"passed","Tue Apr 28 18:20:41 UTC 2026","Tue Apr 28 18:20:41 UTC 2026","58","","Расчет дневной нормы воды","","Проверка валидации времени активности","","Проверка валидации времени активности","  Как пользователь системы
+  Я хочу получать рекомендации по потреблению воды
+  Чтобы поддерживать водный баланс с учетом погоды"
+"passed","","","0","","com.atbp.lab3.service.WeatherServiceTest","","com.atbp.lab3.service.WeatherServiceTest","","testGetWeather_KnownCities{String, double}[1]",""
+"passed","Tue Apr 28 18:20:32 UTC 2026","Tue Apr 28 18:20:32 UTC 2026","4","","Модульные тесты WaterService","","com.atbp.lab3.service.WaterServiceTest","testCalculateWaterNorm_NegativeActivity","Негативный: отрицательное время активности",""
+"passed","Tue Apr 28 18:20:40 UTC 2026","Tue Apr 28 18:20:40 UTC 2026","64","","Расчет дневной нормы воды","","Проверка валидации веса","","Проверка валидации веса","  Как пользователь системы
+  Я хочу получать рекомендации по потреблению воды
+  Чтобы поддерживать водный баланс с учетом погоды"
+"passed","","","3","","com.atbp.lab3.service.WaterServiceTest","","com.atbp.lab3.service.WaterServiceTest","","testParameterizedWaterNorm{double, int, String, double, double, String}[7]",""
+"passed","Tue Apr 28 18:20:32 UTC 2026","Tue Apr 28 18:20:32 UTC 2026","4","","Модульные тесты WaterService","","com.atbp.lab3.service.WaterServiceTest","testCalculateWaterNorm_WeightLessThanMin","Негативный: вес меньше 5 кг",""
+"passed","Tue Apr 28 18:20:32 UTC 2026","Tue Apr 28 18:20:32 UTC 2026","5","","Модульные тесты WaterService","","com.atbp.lab3.service.WaterServiceTest","testParameterizedWaterNorm","Параметризованный тест: разные комбинации веса, активности и города [6] weight=50, activity=60, city=brest, temp=40, expectedNorm=2400, expectedMessage=Increased due to hot weather",""
+"passed","Tue Apr 28 12:48:28 UTC 2026","Tue Apr 28 12:48:28 UTC 2026","70","","","","","","Example #1.4",""
+"passed","","","3","","com.atbp.lab3.service.WeatherServiceTest","","com.atbp.lab3.service.WeatherServiceTest","","testGetWeather_KnownCities{String, double}[4]",""
+"passed","Tue Apr 28 18:20:32 UTC 2026","Tue Apr 28 18:20:32 UTC 2026","13","","Интеграционные тесты WaterController","","com.atbp.lab3.controller.WaterControllerTest","testCalculateWaterNorm_InvalidWeight","POST /api/water/norm - вес меньше 5 кг",""
+"passed","Tue Apr 28 18:20:32 UTC 2026","Tue Apr 28 18:20:32 UTC 2026","5","","Модульные тесты WaterService","","com.atbp.lab3.service.WaterServiceTest","testParameterizedWaterNorm","Параметризованный тест: разные комбинации веса, активности и города [2] weight=70, activity=60, city=grodno, temp=35, expectedNorm=3120, expectedMessage=Increased due to hot weather",""
+"passed","","","9","","com.atbp.lab3.controller.WaterControllerTest","","com.atbp.lab3.controller.WaterControllerTest","","testCalculateWaterNorm_InvalidWeight",""
+"passed","","","3","","com.atbp.lab3.service.WaterServiceTest","","com.atbp.lab3.service.WaterServiceTest","","testParameterizedWaterNorm{double, int, String, double, double, String}[4]",""
+"passed","Tue Apr 28 18:20:32 UTC 2026","Tue Apr 28 18:20:32 UTC 2026","5","","Модульные тесты WaterService","","com.atbp.lab3.service.WaterServiceTest","testRoundingToTwoDecimals","Проверка: округление до 2 знаков после запятой",""
+"passed","","","3","","com.atbp.lab3.service.WeatherServiceTest","","com.atbp.lab3.service.WeatherServiceTest","","testGetWeather_KnownCities{String, double}[3]",""
+"passed","Tue Apr 28 18:20:32 UTC 2026","Tue Apr 28 18:20:32 UTC 2026","5","","Модульные тесты WaterService","","com.atbp.lab3.service.WaterServiceTest","testCalculateWaterNorm_Success_NormalTemperature","Позитивный: корректный расчет нормы воды при нормальной температуре",""
+"passed","Tue Apr 28 18:20:40 UTC 2026","Tue Apr 28 18:20:40 UTC 2026","69","","Расчет дневной нормы воды","","Проверка валидации веса","","Проверка валидации веса","  Как пользователь системы
+  Я хочу получать рекомендации по потреблению воды
+  Чтобы поддерживать водный баланс с учетом погоды"
+"passed","","","2","","com.atbp.lab3.service.WaterServiceTest","","com.atbp.lab3.service.WaterServiceTest","","testBoundaryTemperature_Exactly30",""
+"passed","","","4","","com.atbp.lab3.service.WaterServiceTest","","com.atbp.lab3.service.WaterServiceTest","","testParameterizedWaterNorm{double, int, String, double, double, String}[5]",""
+"passed","","","1418","","RunCucumberTest","","com.atbp.lab3.RunCucumberTest","","Example #1.1",""
+"passed","Tue Apr 28 12:48:27 UTC 2026","Tue Apr 28 12:48:27 UTC 2026","165","","","","","","Example #1.1",""
+"passed","","","4","","com.atbp.lab3.service.WaterServiceTest","","com.atbp.lab3.service.WaterServiceTest","","testParameterizedWaterNorm{double, int, String, double, double, String}[8]",""
+"passed","Tue Apr 28 18:20:32 UTC 2026","Tue Apr 28 18:20:32 UTC 2026","9","","Модульные тесты WaterService","","com.atbp.lab3.service.WaterServiceTest","testBoundaryTemperature_Exactly30","Граничное значение: температура ровно 30°C - без увеличения",""
+"passed","Tue Apr 28 18:20:41 UTC 2026","Tue Apr 28 18:20:41 UTC 2026","63","","Расчет дневной нормы воды","","Проверка увеличения нормы при жаркой погоде","","Проверка увеличения нормы при жаркой погоде","  Как пользователь системы
+  Я хочу получать рекомендации по потреблению воды
+  Чтобы поддерживать водный баланс с учетом погоды"
+"passed","","","0","","com.atbp.lab3.service.WeatherServiceTest","","com.atbp.lab3.service.WeatherServiceTest","","testGetWeather_UnknownCity",""
+"passed","","","1","","com.atbp.lab3.service.WaterServiceTest","","com.atbp.lab3.service.WaterServiceTest","","testBoundaryWeight_Max",""
+"passed","Tue Apr 28 18:20:30 UTC 2026","Tue Apr 28 18:20:31 UTC 2026","973","","Интеграционные тесты WaterController","","com.atbp.lab3.controller.WaterControllerTest","testCalculateWaterNorm_Success","POST /api/water/norm - успешный расчет",""
+"passed","Tue Apr 28 18:20:32 UTC 2026","Tue Apr 28 18:20:32 UTC 2026","123","","Модульные тесты WaterService","","com.atbp.lab3.service.WaterServiceTest","testParameterizedWaterNorm","Параметризованный тест: разные комбинации веса, активности и города [1] weight=70, activity=60, city=minsk, temp=-5, expectedNorm=2600, expectedMessage=Normal calculation",""
+"passed","Tue Apr 28 12:48:27 UTC 2026","Tue Apr 28 12:48:27 UTC 2026","69","","","","","","Example #1.2",""
+"passed","Tue Apr 28 12:48:28 UTC 2026","Tue Apr 28 12:48:28 UTC 2026","78","","","","","","Example #1.1",""
+"passed","Tue Apr 28 12:48:28 UTC 2026","Tue Apr 28 12:48:28 UTC 2026","114","","","","","","Проверка увеличения нормы при жаркой погоде",""
+"passed","Tue Apr 28 18:20:32 UTC 2026","Tue Apr 28 18:20:32 UTC 2026","8","","Модульные тесты WaterService","","com.atbp.lab3.service.WaterServiceTest","testParameterizedWaterNorm","Параметризованный тест: разные комбинации веса, активности и города [5] weight=50, activity=0, city=minsk, temp=-5, expectedNorm=1500, expectedMessage=Normal calculation",""
+"passed","Tue Apr 28 18:20:40 UTC 2026","Tue Apr 28 18:20:40 UTC 2026","64","","Расчет дневной нормы воды","","Расчет нормы воды для разных городов и веса","","Расчет нормы воды для разных городов и веса","  Как пользователь системы
+  Я хочу получать рекомендации по потреблению воды
+  Чтобы поддерживать водный баланс с учетом погоды"
