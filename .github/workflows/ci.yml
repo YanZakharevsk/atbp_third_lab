@@ -169,8 +169,8 @@ jobs:
           
           if [ "${{ needs.backend-tests.result }}" = "success" ] && \
              [ "${{ needs.ui-tests.result }}" = "success" ]; then
-            echo "✅ All tests passed!"
+            echo " All tests passed!"
           else
-            echo "❌ Some tests failed!"
+            echo "Some tests failed!"
             exit 1
           fi

@@ -1,0 +1,1 @@
+{"uuid":"3fb85e12-c436-4b74-881b-c21ebd2e9cc3","name":"Проверка: при ошибке валидации WeatherService не вызывается","children":["b1722e82-693a-4770-b476-1771ec28bcb8"],"befores":[],"afters":[],"start":1777398774473,"stop":1777398774485}
